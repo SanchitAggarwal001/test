@@ -1,0 +1,24 @@
+{
+  "name": "zoom-clone",
+  "version": "1.0.0",
+  "main": "serve.js",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.0",
+    "heroku": "^8.7.1",
+    "next": "^14.2.14",
+    "peer": "^1.0.2",
+    "socket.io": "^4.8.0",
+    "uuid": "^10.0.0"
+  }
+}
